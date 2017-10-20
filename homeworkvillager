@@ -1,0 +1,36 @@
+<html>
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(220);
+  //head
+  fill(226, 183, 133);
+  rect(70,70,245,245);
+  //side of head
+  fill(214, 166, 111);
+  rect(70,70,35,245);
+  //left eye
+  fill(255);
+  rect(145,145,30,30);
+  //left pupil
+  fill(82, 239, 76);
+  rect(150,155,10,10);
+  //right eye
+  fill(255);
+  rect(240,145,30,30);
+  fill(226, 183, 133);
+  rect(195,174,25,65);
+  fill(82,239,76);
+    rect(244,155,10,10);
+  fill(86, 70, 45);
+  rect(137,110,140,20);
+  fill(0);
+  rect(140,240,140,55);
+  fill(229, 18, 116);
+  rect(170,260,75,35);
+  rect(200,260,55,35);
+
+}
+</html>
