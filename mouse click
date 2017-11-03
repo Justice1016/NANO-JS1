@@ -1,0 +1,26 @@
+<html>
+function setup() {
+    createCanvas(400, 400);
+}
+
+function draw() {
+    background(50);
+    stroke(255);
+    strokeWeight(8);
+    noFill();
+    if (mouseIsPressed) {
+      fill(4286f4);
+
+      //left eye
+        line(100, 150, 155, 150);
+      //right eye
+        line(200, 150, 255, 150);
+				noFill();
+        rect(100, 250, 200, 50);
+    } else {
+        line(100, 275, 300, 275);
+      ellipse(150,150,40,40);
+      ellipse(200,150,40,40);
+    }
+}
+</html>
